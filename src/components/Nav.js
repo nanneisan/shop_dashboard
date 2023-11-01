@@ -19,7 +19,6 @@ import Collapse from "@material-ui/core/Collapse";
 import AssiangementIcon from "@material-ui/icons/Assignment";
 import ExpandLess from "@material-ui/icons/ExpandLess";
 import ExpandMore from "@material-ui/icons/ExpandMore";
-import Star from "@material-ui/icons/Star";
 import { LocationCity } from "@material-ui/icons";
 
 const drawerWidth = 240;
@@ -164,7 +163,6 @@ export default function Nav() {
           >
             <MenuIcon />
           </IconButton>
-          <img src="/images/logo.png" className={classes.logo} alt="Ezay" />
         </Toolbar>
       </AppBar>
       <Drawer
